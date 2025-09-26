@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+The Wild Oasis Website
+📖 Description
 
-## Getting Started
+The Wild Oasis Website is a luxury small-hotel booking platform. Customers can explore available rooms, make reservations, and manage their bookings. The app supports secure authentication and allows users to edit or cancel their reservations.
 
-First, run the development server:
+⚙️ Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Next.js 14 – framework for React, routing, server components, and SEO
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+React 18 – UI library
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Supabase – database and authentication backend
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+NextAuth.js – authentication (Google sign-in, protected routes, middleware)
 
-## Learn More
+date-fns – date utilities
 
-To learn more about Next.js, take a look at the following resources:
+react-day-picker – booking calendar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Heroicons – icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+✨ Features
 
-## Deploy on Vercel
+🔑 Authentication via Google (NextAuth.js)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔒 Authorization: protected routes restricted to signed-in users
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+📅 Reservation system with ability to create, edit, and manage bookings
+
+🌐 Dynamic metadata and SEO best practices
+
+⚡ React Suspense for better UX
+
+📤 Data mutations with "use server" actions
+
+🔗 Shared state across client components and URL via Context API
+
+🪝 Modern React hooks usage
