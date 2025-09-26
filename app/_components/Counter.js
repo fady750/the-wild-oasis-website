@@ -4,7 +4,6 @@ import { useState } from "react";
 
 function Counter({users}) {
     const [num, setNum] = useState(0);
-    console.log(users);
     return (
         <div>
             <p>{users}</p>
