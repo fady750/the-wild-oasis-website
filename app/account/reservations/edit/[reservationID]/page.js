@@ -59,7 +59,9 @@ export default async function Page({params}) {
         </div>
 
         <div className="flex justify-end items-center gap-6">
-            <FormButton/>
+            <FormButton updatingLabel="editing">
+              Edit now
+            </FormButton>
         </div>
       </form>
     </div>
